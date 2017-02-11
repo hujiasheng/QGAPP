@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.titleView = setNavigationBarTitleView(@"兼职");
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
